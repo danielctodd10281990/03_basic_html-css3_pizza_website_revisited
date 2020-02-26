@@ -1,0 +1,21 @@
+font-family: 'Tajawal', sans-serif;
+background: #efee1c;
+border-left: aliceblue;
+color: #156d0b;
+aliceblue;
+color: #156d0b;
+color: #11490b;
+background: #dada1a;
+background: linear-gradient(to bottom left, rgba(14,14,14,0.5) 15%, rgba(57,57,57,0.5), transparent), url("images/pizza-bg.jpeg") center center/cover;
+color: #18770d;
+color: #83e613;
+
+color: rgb(219, 203, 203);
+background: #c4c4e3;
+
+font-family: monospace, sans-serif;;
+color: #18770d;
+
+font-family: 'Indie Flower', sans-serif;
+border:  #1b1b1b;
+background: #414141;
