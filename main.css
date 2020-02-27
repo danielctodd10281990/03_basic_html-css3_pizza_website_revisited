@@ -1,16 +1,65 @@
 .main-section {
   background: linear-gradient(to bottom left, rgba(14,14,14,0.5) 33%, rgba(17,17,17,0.5), transparent), url('images/pizza-bg.jpeg') center center/cover;
   height: 93.6vh;
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   position: relative;
 }
 
 .main-section-headline {
   position: absolute;
-  top: 7rem;
-  left: 22rem;
+  top: 18vh;
+  left: 25vw;
   font-size: 4.4rem;
   font-weight: bold;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.5);
 }
 
+.main-section-sub-headline {
+  position: absolute;
+  top: 60vh;
+  left: 24.5vw;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: rgb(219, 203, 203);
+}
+
+.testimonials {
+  height: 112vh;
+  background: #c4c4e3;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-family: monospace, sans-serif;
+  font-size: 4rem;
+  color: #18770d;
+  padding: 2rem 0;
+}
+
+.testimonial-image {
+  display: inline-block;
+  width: 30%;
+}
+
+.testimonial-image img {
+  width: 100%;
+  padding: 0 0.70rem 0.35rem ;
+}
+
+.testimonial-quote {
+  display: inline-block;
+  width: 30%;
+  list-style: none;
+  vertical-align: top;
+}
+
+.testimonial-quote p {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 1.8rem;
+  color: #111111;
+  border: 2px solid #1b1b1b;
+  border-top: none;
+  margin: 0 1rem 1rem 1rem;
+  padding: 0.5rem;
+  height: 15.75rem;
+}

@@ -7,22 +7,71 @@
 body {
   font-family: 'Tajawal', sans-serif;
   color: #18770d;
-  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 100;
+}
+
+.menu-list {
+  position: fixed;
+  top: 14vh;
+  left: 20vw;
+  height: 85vh;
+  width: 60vw;
+  background: rgba(255,255,255,0.8);
+  border: 4px solid #e31ecd;
+  border-radius: 2%;
+  padding: 1rem 2rem;
+  display: none;
+  z-index: 200;
+}
+
+.menu-item {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Indie Flower', sans-serif;
+  color: #ef2500;
+  text-align: center;
+}
+
+.menu-item-description {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.menu-item-special {
+  margin: 0 auto 1rem auto;
+  border-top: 1px solid#156d0b;
+  border-bottom: 1px solid #156d0b;
+  padding-top: 1rem;
+  width: 35vw;
 }
 
 .main-header {
   width: 100%;
+  height: 11.5vh;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   background: #efee1c;
-  padding: 0.5rem 0;
+  padding: 0.4rem 0;
 }
 
 .logo {
   display: inline-block;
-  width: 6vw;
+  width: 5.2vw;
   vertical-align: middle;
 }
 

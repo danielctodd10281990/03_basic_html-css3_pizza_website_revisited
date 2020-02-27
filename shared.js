@@ -1,6 +1,8 @@
 var about = document.querySelector('#about');
 var order = document.querySelector('#order');
 var menu = document.querySelector('#menu');
+var menuList = document.querySelector('.menu-list');
+var backdrop = document.querySelector('.backdrop');
 var navBarSeparation = document.querySelectorAll('.nav-bar-separation');
 
 about.addEventListener('mouseover', aboutShowBorder);
@@ -11,6 +13,10 @@ order.addEventListener('mouseout', orderHideBorder);
 
 menu.addEventListener('mouseover', menuShowBorder);
 menu.addEventListener('mouseout', menuHideBorder);
+menu.addEventListener('click', menuOpen);
+
+menuList.addEventListener('click', menuClose);
+backdrop.addEventListener('click', menuClose);
 
 // Functions to either show border top and bottom or remove them for about nav link.
 // Shows top and bottom if mouse is over.
@@ -64,4 +70,14 @@ function menuHideBorder() {
   }
   menu.style.border = "none";
   menu.style.padding = '0.2rem 3.75rem';
+}
+
+function menuOpen() {
+  menuList.style.display = 'block';
+  backdrop.style.display = 'block';
+}
+
+function menuClose() {
+  menuList.style.display = 'none';
+  backdrop.style.display = 'none';
 }
