@@ -127,3 +127,16 @@ body {
 .highlight {
   color: #83e613;
 }
+
+.location {
+  text-align: center;
+  background: #414141;
+  height: 4.8rem;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #131313;
+}
+
+.location p {
+  padding-top: 1.2rem;
+}
